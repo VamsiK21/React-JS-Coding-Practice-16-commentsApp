@@ -25,7 +25,7 @@ const CommentItem = props => {
   return (
     <li className="comment-item">
       <div className="comment-container">
-        <div className={initialClassName}>
+        <div className={`initial-container ${initialClassName}`}>
           <p className="initial">{initial}</p>
         </div>
         <div>
